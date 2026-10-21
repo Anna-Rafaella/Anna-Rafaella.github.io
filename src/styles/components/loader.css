@@ -1,0 +1,35 @@
+/* Intro loader: animated signature logo shown for 1.5s before the page is revealed. */
+.page-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(circle at 50% 45%, rgba(123, 97, 255, 0.14), transparent 55%),
+    var(--color-bg);
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+.page-loader-logo {
+  width: min(50vw, 440px);
+  height: auto;
+  filter: drop-shadow(0 0 24px rgba(79, 140, 255, 0.35));
+}
+
+.page-loader.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+html.is-loading,
+html.is-loading body {
+  overflow: hidden;
+}
+
+@media (max-width: 640px) {
+  .page-loader-logo {
+    width: 80vw;
+  }
+}

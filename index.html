@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Anna Rafaella KAPANDE DENG — Ingénieure Data Science & IA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Anna Rafaella KAPANDE DENG — Ingénieure Data Science & IA : machine learning, deep learning, vision par ordinateur, LLMs et RAG."
+    />
+    <meta
+      name="keywords"
+      content="anna kapande deng,data science,intelligence artificielle,machine learning,deep learning,computer vision,llm,rag,python,pytorch"
+    />
+    <meta name="author" content="Anna Rafaella KAPANDE DENG" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://anna-rafaella.github.io/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Anna Rafaella KAPANDE DENG — Ingénieure Data Science & IA" />
+    <meta
+      property="og:description"
+      content="Ingénieure Data Science & IA : machine learning, deep learning, vision par ordinateur, LLMs et RAG."
+    />
+    <meta property="og:url" content="https://anna-rafaella.github.io/" />
+    <meta property="og:image" content="https://anna-rafaella.github.io/logo.png" />
+    <meta property="og:site_name" content="Anna Rafaella KAPANDE DENG" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Anna Rafaella KAPANDE DENG — Ingénieure Data Science & IA" />
+    <meta
+      name="twitter:description"
+      content="Ingénieure Data Science & IA : machine learning, deep learning, vision par ordinateur, LLMs et RAG."
+    />
+    <meta name="twitter:image" content="https://anna-rafaella.github.io/logo.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Anna Rafaella KAPANDE DENG",
+        "jobTitle": "Ingénieure Data Science & IA",
+        "email": "mailto:kapandeanna8@gmail.com",
+        "alumniOf": "Polytech Dijon",
+        "url": "https://anna-rafaella.github.io/",
+        "image": "https://anna-rafaella.github.io/logo.png",
+        "sameAs": [
+          "https://www.linkedin.com/in/kapande-anna-341b7a29a/",
+          "https://github.com/Anna-Rafaella"
+        ]
+      }
+    </script>
+
+    <link rel="icon" type="image/png" href="./logo.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.16.0/devicon.min.css" />
+
+    <script>
+      (function () {
+        var stored = localStorage.getItem("portfolio-theme");
+        document.documentElement.dataset.theme = stored === "light" ? "light" : "dark";
+      })();
+    </script>
+
+    <link rel="stylesheet" href="src/styles/tokens.css" />
+    <link rel="stylesheet" href="src/styles/base.css" />
+    <link rel="stylesheet" href="src/styles/animations.css" />
+    <link rel="stylesheet" href="src/styles/utilities.css" />
+    <link rel="stylesheet" href="src/styles/components/nav.css" />
+    <link rel="stylesheet" href="src/styles/components/command-palette.css" />
+    <link rel="stylesheet" href="src/styles/components/hero.css" />
+    <link rel="stylesheet" href="src/styles/components/about.css" />
+    <link rel="stylesheet" href="src/styles/components/experience.css" />
+    <link rel="stylesheet" href="src/styles/components/skills.css" />
+    <link rel="stylesheet" href="src/styles/components/projects.css" />
+    <link rel="stylesheet" href="src/styles/components/github.css" />
+    <link rel="stylesheet" href="src/styles/components/blog.css" />
+    <link rel="stylesheet" href="src/styles/components/adventures.css" />
+    <link rel="stylesheet" href="src/styles/components/contact.css" />
+    <link rel="stylesheet" href="src/styles/components/coffee.css" />
+    <link rel="stylesheet" href="src/styles/components/footer.css" />
+    <link rel="stylesheet" href="src/styles/components/loader.css" />
+
+    <script type="module" src="src/main.js"></script>
+  </head>
+  <body>
+    <div class="page-loader no-print" id="pageLoader" aria-hidden="true">
+      <img class="page-loader-logo" src="assets/loader-logo.svg" alt="" width="440" height="305" />
+    </div>
+    <script>
+      (function () {
+        var LOADER_DURATION = 1500;
+        var root = document.documentElement;
+        var loader = document.getElementById("pageLoader");
+        root.classList.add("is-loading");
+        setTimeout(function () {
+          loader.classList.add("is-hidden");
+          root.classList.remove("is-loading");
+          setTimeout(function () { loader.remove(); }, 500);
+        }, LOADER_DURATION);
+      })();
+    </script>
+
+    <a class="skip-link" href="#main-content">Aller au contenu</a>
+
+    <div class="scroll-progress no-print" aria-hidden="true">
+      <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+    </div>
+
+    <div id="nav-root" class="no-print"></div>
+
+    <button
+      type="button"
+      class="back-to-top no-print magnetic ripple"
+      id="backToTop"
+      aria-label="Retour en haut"
+    >
+      <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <div id="command-palette-root"></div>
+
+    <main id="main-content">
+      <section id="hero" data-section="hero" aria-label="Présentation"></section>
+
+      <section id="about" data-section="about" class="section" aria-labelledby="about-title"></section>
+
+      <section id="experience" data-section="experience" class="section" aria-labelledby="experience-title"></section>
+
+      <section id="skills" data-section="skills" class="section" aria-labelledby="skills-title"></section>
+
+      <section id="projects" data-section="projects" class="section" aria-labelledby="projects-title"></section>
+
+      <section id="adventures" data-section="adventures" class="section" aria-labelledby="adventures-title"></section>
+
+      <section id="contact" data-section="contact" class="section" aria-labelledby="contact-title"></section>
+    </main>
+
+    <footer id="footer" class="no-print"></footer>
+  </body>
+</html>
